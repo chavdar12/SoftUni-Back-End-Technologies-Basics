@@ -1,0 +1,78 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  dotnet:
+    name: .NET build & test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-dotnet@v6
+        with:
+          global-json-file: global.json
+
+      - name: Restore
+        run: dotnet restore SoftUni-Back-End-Technologies-Basics.slnx
+
+      - name: Build
+        run: dotnet build SoftUni-Back-End-Technologies-Basics.slnx -c Release --no-restore -warnaserror
+
+      - name: Test
+        run: >-
+          dotnet test SoftUni-Back-End-Technologies-Basics.slnx -c Release --no-build
+          --logger trx --results-directory TestResults
+          --collect "XPlat Code Coverage"
+
+      - name: Upload test results and coverage
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: dotnet-test-results
+          path: TestResults
+          if-no-files-found: ignore
+
+  javascript:
+    name: JavaScript tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+      - run: npm test
+
+  docker:
+    name: Docker image build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Build NotesApi image
+        run: docker build -f 021-Containers-Docker-and-Docker-Compose/NotesApi/Dockerfile -t notes-api .
+
+      - name: Smoke test container
+        run: |
+          docker run -d --name notes -p 8080:8080 notes-api
+          for i in $(seq 1 30); do
+            curl -fsS http://localhost:8080/health && exit 0
+            sleep 1
+          done
+          docker logs notes
+          exit 1

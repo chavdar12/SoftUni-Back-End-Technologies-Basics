@@ -1,0 +1,71 @@
+<Solution>
+  <Folder Name="/003-Data-Formats-JSON-and-YAML-XML/">
+    <Project Path="003-Data-Formats-JSON-and-YAML-XML/DataFormats.Lab.Tests/DataFormats.Lab.Tests.csproj" />
+  </Folder>
+  <Folder Name="/004-Exercises-Data-Formats/">
+    <Project Path="004-Exercises-Data-Formats/DataFormats.Tests/DataFormats.Tests.csproj" />
+    <Project Path="004-Exercises-Data-Formats/DataFormats/DataFormats.csproj" />
+  </Folder>
+  <Folder Name="/011-Databases-Overview/">
+    <Project Path="011-Databases-Overview/Databases.Tests/Databases.Tests.csproj" />
+  </Folder>
+  <Folder Name="/012-Integration-Testing/">
+    <Project Path="012-Integration-Testing/TownsApplication.IntegrationTests/TownsApplication.IntegrationTests.csproj" />
+    <Project Path="012-Integration-Testing/TownsApplication/TownsApplication.csproj" />
+  </Folder>
+  <Folder Name="/013-Exercises-Integration-Testing-part-1/">
+    <Project Path="013-Exercises-Integration-Testing-part-1/LibroConsoleAPI.IntegrationTests/LibroConsoleAPI.IntegrationTests.csproj" />
+    <Project Path="013-Exercises-Integration-Testing-part-1/LibroConsoleAPI/LibroConsoleAPI.csproj" />
+  </Folder>
+  <Folder Name="/014-Exercise-Integration-Testing-part-2/">
+    <Project Path="014-Exercise-Integration-Testing-part-2/MoviesLibraryAPI.IntegrationTests/MoviesLibraryAPI.IntegrationTests.csproj" />
+    <Project Path="014-Exercise-Integration-Testing-part-2/MoviesLibraryAPI/MoviesLibraryAPI.csproj" />
+  </Folder>
+  <Folder Name="/015-Unit-Testing-with-Mocking/">
+    <Project Path="015-Unit-Testing-with-Mocking/GetGreeting.Tests/GetGreeting.Tests.csproj" />
+    <Project Path="015-Unit-Testing-with-Mocking/GetGreeting/GetGreeting.csproj" />
+    <Project Path="015-Unit-Testing-with-Mocking/ItemManagement.Tests/ItemManagement.Tests.csproj" />
+    <Project Path="015-Unit-Testing-with-Mocking/ItemManagement/ItemManagement.csproj" />
+  </Folder>
+  <Folder Name="/016-RESTful-API-Backend-Apps/">
+    <Project Path="016-RESTful-API-Backend-Apps/Homies.Tests/Homies.Tests.csproj" />
+    <Project Path="016-RESTful-API-Backend-Apps/Homies/Homies.csproj" />
+  </Folder>
+  <Folder Name="/017-Exercise-Testing-API-Controllers/">
+    <Project Path="017-Exercise-Testing-API-Controllers/Homies.Api.Tests/Homies.Api.Tests.csproj" />
+  </Folder>
+  <Folder Name="/018-Code-Coverage/">
+    <Project Path="018-Code-Coverage/LibraryManagement.Tests/LibraryManagement.Tests.csproj" />
+    <Project Path="018-Code-Coverage/LibraryManagement/LibraryManagement.csproj" />
+    <Project Path="018-Code-Coverage/MyArrayExample.Tests/MyArrayExample.Tests.csproj" />
+    <Project Path="018-Code-Coverage/MyArrayExample/MyArrayExample.csproj" />
+  </Folder>
+  <Folder Name="/019-Mutation-Testing/">
+    <Project Path="019-Mutation-Testing/ArrayTools.Tests/ArrayTools.Tests.csproj" />
+    <Project Path="019-Mutation-Testing/ArrayTools/ArrayTools.csproj" />
+    <Project Path="019-Mutation-Testing/Calculator.Tests/Calculator.Tests.csproj" />
+    <Project Path="019-Mutation-Testing/Calculator/Calculator.csproj" />
+  </Folder>
+  <Folder Name="/020-Exam-Preparation/">
+    <Project Path="020-Exam-Preparation/ContactsConsoleAPI.IntegrationTests/ContactsConsoleAPI.IntegrationTests.csproj" />
+    <Project Path="020-Exam-Preparation/ContactsConsoleAPI/ContactsConsoleAPI.csproj" />
+    <Project Path="020-Exam-Preparation/JsonParserMusicians.Tests/JsonParserMusicians.Tests.csproj" />
+    <Project Path="020-Exam-Preparation/JsonParserMusicians/JsonParserMusicians.csproj" />
+  </Folder>
+  <Folder Name="/021-Containers-Docker-and-Docker-Compose/">
+    <Project Path="021-Containers-Docker-and-Docker-Compose/NotesApi.Tests/NotesApi.Tests.csproj" />
+    <Project Path="021-Containers-Docker-and-Docker-Compose/NotesApi/NotesApi.csproj" />
+  </Folder>
+  <Folder Name="/022-Entity-Framework-Introduction/">
+    <Project Path="022-Entity-Framework-Introduction/PersonRegister.Tests/PersonRegister.Tests.csproj" />
+    <Project Path="022-Entity-Framework-Introduction/PersonRegister/PersonRegister.csproj" />
+  </Folder>
+  <Folder Name="/023-ASP.NET-Core-Introduction/">
+    <Project Path="023-ASP.NET-Core-Introduction/MVCIntroDemo.Tests/MVCIntroDemo.Tests.csproj" />
+    <Project Path="023-ASP.NET-Core-Introduction/MVCIntroDemo/MVCIntroDemo.csproj" />
+  </Folder>
+  <Folder Name="/024-Exam-Preparation/">
+    <Project Path="024-Exam-Preparation/JsonParserAstronauts.Tests/JsonParserAstronauts.Tests.csproj" />
+    <Project Path="024-Exam-Preparation/JsonParserAstronauts/JsonParserAstronauts.csproj" />
+  </Folder>
+</Solution>

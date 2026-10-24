@@ -1,0 +1,4 @@
+{
+  "spec": ["0*/**/*.test.js"],
+  "ignore": ["**/node_modules/**", "**/bin/**", "**/obj/**"]
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"] - MVC Intro Demo</title>
+</head>
+<body>
+    <nav>
+        <a asp-controller="Home" asp-action="Index">Home</a> |
+        <a asp-controller="Product" asp-action="My-Products">Products</a>
+    </nav>
+    <main>
+        @RenderBody()
+    </main>
+</body>
+</html>

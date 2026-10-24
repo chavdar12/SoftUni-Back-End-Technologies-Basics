@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "isbn": "9780132350884",
+    "publishedYear": 2008,
+    "genres": ["Programming", "Software Engineering"],
+    "available": true
+  },
+  {
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt, David Thomas",
+    "isbn": "9780135957059",
+    "publishedYear": 2019,
+    "genres": ["Programming"],
+    "available": false
+  }
+]

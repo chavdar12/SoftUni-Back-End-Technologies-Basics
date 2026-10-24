@@ -1,0 +1,10 @@
+- reservationId: R-001
+  guest: Petar Stoyanov
+  room: 204
+  checkIn: 2026-07-01
+  checkOut: 2026-07-05
+- reservationId: R-002
+  guest: Anna Koleva
+  room: 310
+  checkIn: 2026-07-03
+  checkOut: 2026-07-04

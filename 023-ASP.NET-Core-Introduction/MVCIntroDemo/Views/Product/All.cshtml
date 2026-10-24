@@ -1,0 +1,16 @@
+@model IEnumerable<ProductViewModel>
+@{
+    ViewData["Title"] = "Products";
+}
+<h1>Products</h1>
+<form method="get">
+    <label for="keyword">Search</label>
+    <input id="keyword" name="keyword" />
+    <button type="submit">Search</button>
+</form>
+<ul>
+    @foreach (var product in Model)
+    {
+        <li><a asp-action="ById" asp-route-id="@product.Id">@product.Name</a> - @product.Price.ToString("F2") lv.</li>
+    }
+</ul>

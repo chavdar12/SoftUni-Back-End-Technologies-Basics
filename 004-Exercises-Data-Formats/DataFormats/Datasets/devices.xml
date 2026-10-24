@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<devices>
+  <device id="1">
+    <name>iPhone 17</name>
+    <type>Smartphone</type>
+    <price>999.00</price>
+  </device>
+  <device id="2">
+    <name>Galaxy Tab S10</name>
+    <type>Tablet</type>
+    <price>749.50</price>
+  </device>
+</devices>

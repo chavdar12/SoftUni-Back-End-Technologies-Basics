@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "price": 24.99,
+    "description": "Ergonomic 2.4 GHz mouse with silent clicks.",
+    "keywords": ["computer", "accessory", "wireless"]
+  },
+  {
+    "id": 2,
+    "name": "Mechanical Keyboard",
+    "price": 89.5,
+    "description": "Tenkeyless keyboard with brown switches.",
+    "keywords": ["computer", "keyboard"]
+  },
+  {
+    "id": 3,
+    "name": "USB-C Hub",
+    "price": 39.0,
+    "description": "7-in-1 hub with HDMI and card reader.",
+    "keywords": ["usb", "adapter"]
+  }
+]

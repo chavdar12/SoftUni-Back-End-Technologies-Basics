@@ -1,0 +1,26 @@
+[
+  {
+    "astronautId": 1001,
+    "astronautName": "Rachel Nguyen",
+    "age": 29,
+    "profession": "Biologist",
+    "yearsExperience": 7,
+    "missions": { "current": "Europa Exploration", "past": ["Lunar Research", "Solar Flare Study"] }
+  },
+  {
+    "astronautId": 1002,
+    "astronautName": "Mike Johnson",
+    "age": 34,
+    "profession": "Engineer",
+    "yearsExperience": 10,
+    "missions": { "current": "Starlight Mission", "past": ["Venus Survey"] }
+  },
+  {
+    "astronautId": 1003,
+    "astronautName": "Emily White",
+    "age": 26,
+    "profession": "Pilot",
+    "yearsExperience": 3,
+    "missions": { "current": null, "past": [] }
+  }
+]

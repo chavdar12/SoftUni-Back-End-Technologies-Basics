@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehicles>
+  <vehicle>
+    <make>Toyota</make>
+    <model>Corolla</model>
+    <year>2021</year>
+  </vehicle>
+  <vehicle>
+    <make>Skoda</make>
+    <model>Octavia</model>
+    <year>2019</year>
+  </vehicle>
+</vehicles>

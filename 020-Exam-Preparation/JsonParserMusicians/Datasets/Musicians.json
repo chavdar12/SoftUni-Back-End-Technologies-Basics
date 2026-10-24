@@ -1,0 +1,28 @@
+[
+  {
+    "participantId": 101,
+    "participantName": "Emma Johnson",
+    "dateOfBirth": "1988-03-21",
+    "instrumentSkills": [
+      { "instrumentName": "Violin", "experienceLevel": 4.2 },
+      { "instrumentName": "Piano", "experienceLevel": 3.6 }
+    ],
+    "preferredGenres": ["Classical", "Jazz"]
+  },
+  {
+    "participantId": 102,
+    "participantName": "Liam Brown",
+    "dateOfBirth": "1992-07-12",
+    "instrumentSkills": [
+      { "instrumentName": "Guitar", "experienceLevel": 4.8 }
+    ],
+    "preferredGenres": ["Rock"]
+  },
+  {
+    "participantId": 103,
+    "participantName": "Sofia Petrova",
+    "dateOfBirth": "2001-11-05",
+    "instrumentSkills": [],
+    "preferredGenres": []
+  }
+]

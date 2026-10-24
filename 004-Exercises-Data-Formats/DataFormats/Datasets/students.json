@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Maria Ivanova",
+    "courses": [
+      { "name": "Back-End Technologies Basics", "grade": 5.75 },
+      { "name": "QA Fundamentals", "grade": 6.0 }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Georgi Petrov",
+    "courses": [
+      { "name": "Back-End Technologies Basics", "grade": 4.5 }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+countries:
+  - name: Bulgaria
+    capital: Sofia
+    population: 6447710
+    languages:
+      - Bulgarian
+  - name: Switzerland
+    capital: Bern
+    population: 8902308
+    languages:
+      - German
+      - French
+      - Italian
+      - Romansh
+  - name: Canada
+    capital: Ottawa
+    population: 40097761
+    languages:
+      - English
+      - French

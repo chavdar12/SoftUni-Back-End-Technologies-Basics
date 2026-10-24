@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cities>
+  <city>
+    <name>Sofia</name>
+    <country>Bulgaria</country>
+    <population>1286383</population>
+    <landmarks>
+      <landmark>Alexander Nevsky Cathedral</landmark>
+      <landmark>Vitosha Mountain</landmark>
+    </landmarks>
+  </city>
+  <city>
+    <name>Plovdiv</name>
+    <country>Bulgaria</country>
+    <population>346893</population>
+    <landmarks>
+      <landmark>Ancient Theatre</landmark>
+    </landmarks>
+  </city>
+  <city>
+    <name>Vienna</name>
+    <country>Austria</country>
+    <population>2005760</population>
+    <landmarks>
+      <landmark>Schönbrunn Palace</landmark>
+      <landmark>St. Stephen's Cathedral</landmark>
+    </landmarks>
+  </city>
+</cities>
